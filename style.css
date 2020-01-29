@@ -112,6 +112,10 @@ header img {
     margin: 0 0 12px 0;
 }
 
+#member dl dt:hover {
+	filter: grayscale(100%);
+}
+
 #member dl dt img {
 	width: 85%;
 	border-radius: 50%;
