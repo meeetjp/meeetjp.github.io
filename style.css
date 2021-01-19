@@ -80,11 +80,29 @@ header img {
 #business .tagLine {
 	font-weight: 800;
 	font-size: 28px;
+	margin: 0 0 20px 0;
 }
 
 #business .tagLine em {
 	color: #FA4444;
 	font-style: normal;
+}
+
+#business .linkBt {
+	display: inline-block;
+	width: 300px;
+	height: 64px;
+	line-height: 64px;
+	border-radius: 16px;
+	background-color: #4498FA;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	box-shadow: 0px 4px 8px rgba(0,0,0,0.25), 0px 0px 2px rgba(0,0,0,0.05);
+}
+
+#business .linkBt:hover{
+	opacity: 0.9;
 }
 
 .meeet {
