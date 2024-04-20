@@ -47,8 +47,11 @@ body {
   color: var(--primaryText);
 }
 
-.wrap {
+#wrap {
   padding: 16px;
+}
+#wrap:target h1 {
+  display: none;
 }
 
 h1 {
